@@ -18,6 +18,7 @@ Problem-Solving Approach
 The analysis is divided into three levels: Basic, Intermediate, and Advanced. Each level aims to answer specific business questions.
 
 1. Basic Analysis
+
 Q.1 Retrieve total number of orders placed:
 
 SELECT COUNT(order_id) AS Total_Orders FROM orders$;
@@ -62,6 +63,7 @@ ORDER BY SUM(quantity) DESC;
 Result: Identifies the most popular pizzas to focus on inventory and marketing efforts.
 
 2. Intermediate Analysis
+
 Q.1 Find the total quantity of each pizza category ordered:
 
 SELECT category, SUM(quantity) AS Quantity 
@@ -112,6 +114,7 @@ ORDER BY SUM(order_details$.quantity * price) DESC;
 Result: Focus on high-revenue pizza types to drive sales strategies.
 
 3. Advanced Analysis
+
 Q.1 Percentage contribution of each pizza type to total revenue:
 
 SELECT pizza_types$.category, ROUND(SUM(order_details$.quantity * pizzas$.price) / 
