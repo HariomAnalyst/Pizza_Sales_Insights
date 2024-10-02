@@ -3,7 +3,9 @@ Pizza Sales Insights Project using SQL
 
 
 Pizza Sales Analysis Project
+
 Project Overview
+
 Objective: This project analyzes pizza sales data from a pizza chain to derive valuable insights regarding orders, revenue, and customer preferences using SQL.
 
 Dataset: The dataset consists of four tables:
